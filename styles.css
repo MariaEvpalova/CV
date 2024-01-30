@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+main > *,
+header {
+    padding: 3vh 5vw;
+}
+
+header {
+    display: flex;
+    gap: 3vw;
+    background-color: #004b80;
+    color: #ffffff;
+}
+
+header > img {
+    width: 250px;
+    height: 250px;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header h2 {
+    margin: 0;
+    display: inline;
+}
+
+header ul {
+    padding-left: 10px;
+}
+
+header li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header > div {
+    display: flex;
+    flex-direction: column;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.experience .period {
+    color: #767676;
+}
+
+.experience a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.experience a:hover {
+    text-decoration: underline;
+}
+
+.experience h2,
+#projects h2 {
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #3e3e3e;
+
+}
+
+.section hr {
+    height: 2px;
+    background-color: #004b80;
+    border: none;
+}
+
+.section hr:first-of-type {
+    height: 5px;
+}
+
+#languages ul, 
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#languages li, 
+#skills li {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #3e3e3e;
+}
+
+#languages li:not(:last-child), 
+#skills li:not(:last-child) {
+    margin-bottom: 7px;
+}
+
+#languages > div, #skills > div {
+    display: flex;
+    gap: 5vw;
+}
+
+#skills li {
+    font-weight: bold;
+}
+
+#projects h2 {
+    margin-bottom: 0;
+}
+
+#projects p {
+    margin-top: 0;
+}
